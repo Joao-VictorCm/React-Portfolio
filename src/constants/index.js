@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `Sou um desenvolvedor Back-End apaixonado por criar soluções tecnológicas que realmente fazem a diferença. Especializado em desenvolver aplicativos web robustos, escaláveis e de alta performance, tenho experiência prática com Node.js, Express, MySQL e PostgreSQL, além de um compromisso sólido com boas práticas de desenvolvimento.
 Meu objetivo é ir além do código: construir soluções inteligentes que resolvam problemas reais, impulsionem o crescimento dos negócios e proporcionem experiências excepcionais aos usuários. Sou motivado pelo aprendizado contínuo e pela oportunidade de colaborar com equipes inovadoras para enfrentar desafios e entregar resultados impactantes.`;
@@ -30,37 +30,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Travel-Tracker (Esta em construção)", 
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Servidor web utilizando Express, que se conecta a um banco de dados PostgreSQL para gerenciar um sistema de países visitados. O objetivo principal é permitir ao usuário adicionar países à lista de países visitados e exibir os países cadastrados.",
+    technologies: ["Node.js", "Express", "PostgreSQL", "EJS", "HTTP"],
   },
   {
-    title: "Task Management App",
+    title: "API-Authentication",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Este projeto é uma aplicação Node.js com Express e Axios, que demonstra como usar diferentes métodos de autenticação ao acessar uma API externa. A aplicação interage com a API pública 'Secrets API' e retorna os dados para serem exibidos em uma página HTML gerada por EJS.",
+    technologies: ["Node.js", "Express", "Axios", "API REST", "EJS"],
   },
   {
-    title: "Portfolio Website",
+    title: "Nasa-Explorer",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Este projeto é uma aplicação web que utiliza a API da NASA para exibir imagens e informações sobre o espaço. Ele foi construído com Node.js e Express, utilizando EJS. Rotas /: Página inicial. /APOD: Exibe a imagem astronômica do dia /Mars: Exibe fotos do rover Curiosity em Marte.",
+    technologies: ["Node.js", "Tailwind CSS", "Express", "EJS", "Axios"],
   },
   {
-    title: "Blogging Platform",
+    title: "React-Portfolio",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "O objetivo deste projeto foi construir uma aplicação moderna e responsiva que mostra minhas habilidades de desenvolvimento de software.",
+    technologies: ["React", "Tailwind CSS", "JavaScript", "HTML"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Brasil, Rio Grande do Sul.",
+  phoneNo: "54 996896333.",
+  email: "castilhosjoao16@gmail.com",
 };
